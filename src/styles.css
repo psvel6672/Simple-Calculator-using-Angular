@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.cust-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    padding: 20px;
+    box-shadow: 0px 0px 33px #dcdcdc;
+    border-radius: 10px;
+}
+
+.cust-text{
+    font-size: 20px !important;
+    width: 100%;
+}
+
+.cust-btn{
+    /* height: 50px; */
+    width: 15%;
+
+} /**/
+
+.card{
+    border: 0 !important;
+}
+
+.cust-btn{
+    background: #f583a8;
+    border: 0 !important;
+}
+
+.cust-btn:hover{
+    background-color: #d5396b;
+    border: 0 !important;
+}
+
+.cust-btn2{
+    background-color: #d5396b;
+    border: 0 !important;
+}
+
+.cust-btn2:hover{
+    background-color: #f583a8;
+    border: 0 !important;
+}
+
+.card-title{
+    background-color: #d5396b !important;
+}
+
+input[type="text"], textarea {
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+}
+
+@media screen and (min-width: 200px) and (max-width: 320px) {
+    .cust-center{
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 504px) {
+    .cust-center{
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 505px) and (max-width: 999px) {
+    .cust-center{
+        width: 50% !important;
+    }
+}
